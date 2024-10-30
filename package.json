@@ -2,13 +2,13 @@
   "name": "easy-sitemap-generator",
   "version": "0.1.5",
   "description": "Easy and free sitemap.xml file generator without any restrictions for your website.",
-  "homepage": "https://github.com/sefinek24/easy-sitemap-generator#readme",
+  "homepage": "https://github.com/sefinek/easy-sitemap-generator#readme",
   "bugs": {
-    "url": "https://github.com/sefinek24/easy-sitemap-generator/issues"
+    "url": "https://github.com/sefinek/easy-sitemap-generator/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sefinek24/easy-sitemap-generator.git"
+    "url": "git+https://github.com/sefinek/easy-sitemap-generator.git"
   },
   "license": "MIT",
   "author": "Sefinek <contact@nekosia.cat> (https://sefinek.net)",
