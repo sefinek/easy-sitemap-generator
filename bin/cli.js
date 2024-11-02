@@ -10,7 +10,7 @@ if (!urlArg) {
 	process.exit(1);
 }
 
-generate(`https://${urlArg.split('=')[1].replace(/(^\w+:|^)\/\//, '')}`).catch(err => {
+generate(urlArg.split('=')[1]).catch(err => {
 	logError(err);
 	process.exit(2);
 });
