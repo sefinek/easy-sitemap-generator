@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { logError } = require('../utils/kleur.js');
-const { generate } = require('../lib/sitemapGenerator');
+const { generate } = require('../lib/sitemapGenerator.js');
 
 const args = process.argv.slice(2);
 const urlArg = args.find(arg => arg.startsWith('--url='));
