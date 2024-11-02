@@ -14,7 +14,7 @@ Improve your search engine rankings effortlessly! All you need is Node.js instal
 ### CLI (recommenced)
 ```bash
 npm install easy-sitemap-generator -g
-sitemap --domain=example.com
+sitemap --url=https://example.com
 ```
 #### Aliases
 | sitemap-gen | sitemap-generator | generate-sitemap |
