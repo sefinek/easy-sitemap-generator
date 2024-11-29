@@ -1,4 +1,4 @@
-# 🗺️ Easy Sitemap.xml generator without any limits
+# 🗺️ Easy Sitemap.xml generator
 Finally! A free and easy-to-use `sitemap.xml` generator with no restrictions for your website.
 Improve your search engine rankings effortlessly! All you need is Node.js installed and this module. Good luck!
 
@@ -16,6 +16,7 @@ Improve your search engine rankings effortlessly! All you need is Node.js instal
 npm install easy-sitemap-generator -g
 sitemap --url=https://example.com
 ```
+
 #### Aliases
 | sitemap-gen | sitemap-generator | generate-sitemap |
 |-------------|-------------------|------------------|
