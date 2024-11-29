@@ -11,7 +11,7 @@
     "url": "git+https://github.com/sefinek/easy-sitemap-generator.git"
   },
   "license": "MIT",
-  "author": "Sefinek <contact@nekosia.cat> (https://sefinek.net)",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
   "main": "index.js",
   "typings": "index.d.ts",
   "bin": {
