@@ -25,12 +25,12 @@
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "dependencies": {
-    "axios": "^1.7.7",
+    "axios": "^1.7.8",
     "jsdom": "^25.0.1",
     "kleur": "^4.1.5"
   },
   "devDependencies": {
-    "@eslint/js": "^9.14.0",
-    "globals": "^15.11.0"
+    "@eslint/js": "^9.15.0",
+    "globals": "^15.12.0"
   }
 }
