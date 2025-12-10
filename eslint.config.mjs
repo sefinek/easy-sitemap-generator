@@ -8,7 +8,6 @@ export default [
 			ecmaVersion: 'latest',
 			globals: {
 				...globals.node,
-				...globals.jest,
 			},
 		},
 		rules: {
@@ -40,7 +39,6 @@ export default [
 			'prefer-const': 'error',
 			'quotes': ['warn', 'single'],
 			'semi': ['warn', 'always'],
-			'sort-vars': 'warn',
 			'space-before-blocks': 'warn',
 			'space-before-function-paren': ['warn', { anonymous: 'never', named: 'never', asyncArrow: 'always' }],
 			'space-in-parens': 'warn',
