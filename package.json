@@ -1,6 +1,6 @@
 {
   "name": "easy-sitemap-generator",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Easy and free sitemap.xml file generator without any restrictions for your website.",
   "keywords": [
     "sitemap",
@@ -35,6 +35,7 @@
     "bin",
     "example",
     "lib",
+    "utils",
     "services",
     "index.d.ts",
     "index.js",
