@@ -1,8 +1,15 @@
 const kleur = require('kleur');
 
-const logInfo = msg => console.log(kleur.blue().bold('[INFO]: ') + msg);
-const logSuccess = msg => console.log(kleur.green().bold('[SUCCESS]: ') + msg);
-const logError = msg => console.error(kleur.red().bold('[ERROR]: ') + msg);
-const logWarning = msg => console.warn(kleur.yellow().bold('[WARN]: ') + msg);
+const P_INFO = kleur.blue().bold('[INFO]: ');
+const P_SUCCESS = kleur.green().bold('[SUCCESS]: ');
+const P_ERROR = kleur.red().bold('[ERROR]: ');
+const P_WARN = kleur.yellow().bold('[WARN]: ');
 
-module.exports = { logInfo, logSuccess, logError, logWarning };
+const logInfo = msg => console.log(P_INFO + msg);
+const logSuccess = msg => console.log(P_SUCCESS + msg);
+const logError = msg => console.error(P_ERROR + msg);
+const logWarning = msg => console.warn(P_WARN + msg);
+const logInfoStart = msg => process.stdout.write(P_INFO + msg);
+const logInfoAppend = msg => process.stdout.write(`\r\x1b[K${P_INFO}${msg}\n`);
+
+module.exports = { logInfo, logSuccess, logError, logWarning, logInfoStart, logInfoAppend };

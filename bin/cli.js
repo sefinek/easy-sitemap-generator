@@ -10,7 +10,7 @@ if (!urlArg) {
 	process.exit(1);
 }
 
-generate(urlArg.split('=')[1]).catch(err => {
+generate(urlArg.slice('--url='.length)).catch(err => {
 	logError(err);
 	process.exit(2);
 });
