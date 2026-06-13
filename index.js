@@ -1,6 +1,1 @@
-const { generate, version } = require('./lib/sitemapGenerator.js');
-
-module.exports = {
-	generate,
-	version,
-};
+export { generateSitemap, version } from './lib/sitemapGenerator.js';

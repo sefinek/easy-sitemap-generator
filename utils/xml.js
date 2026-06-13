@@ -1,4 +1,4 @@
-const XML_ESCAPE = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' };
+const XML_ESCAPE = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&apos;' };
 const escapeXml = str => str.replace(/[&<>"']/g, ch => XML_ESCAPE[ch]);
 
 const normalizeUrl = url => {
@@ -18,4 +18,4 @@ const calculatePriority = (url, baseUrl) => {
 	return hasQuery ? 0.34 : 0.44;
 };
 
-module.exports = { escapeXml, normalizeUrl, calculatePriority };
+export { escapeXml, normalizeUrl, calculatePriority };
